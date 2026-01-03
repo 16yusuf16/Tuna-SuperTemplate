@@ -1,0 +1,6 @@
+@Tuna.SuperTemplate.Api_HostAddress = http://localhost:5223
+
+GET {{Tuna.SuperTemplate.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

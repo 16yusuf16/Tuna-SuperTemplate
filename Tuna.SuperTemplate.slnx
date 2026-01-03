@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/libs/">
+    <Project Path="libs/Tuna.SuperTemplate.ApiDocs/Tuna.SuperTemplate.ApiDocs.csproj" Id="f64c1df8-73ff-41db-af14-d7d9f7f7a8ef" />
+    <Project Path="libs/Tuna.SuperTemplate.BaseInfra/Tuna.SuperTemplate.BaseInfra.csproj" Id="38809d5a-342f-44ae-b0b2-78350627a4d5" />
+    <Project Path="libs/Tuna.SuperTemplate.Common/Tuna.SuperTemplate.Common.csproj" Id="9cab2fff-1951-422c-b062-e023f983c2d2" />
+    <Project Path="libs/Tuna.SuperTemplate.Cors/Tuna.SuperTemplate.Cors.csproj" Id="fd351641-78d4-4ed4-a499-8ad3f3db3c3c" />
+    <Project Path="libs/Tuna.SuperTemplate.Exception/Tuna.SuperTemplate.Exception.csproj" Id="8dc51fc1-94ae-4cb5-a10e-cc48f43350b5" />
+    <Project Path="libs/Tuna.SuperTemplate.HealtCheck/Tuna.SuperTemplate.HealtCheck.csproj" Id="5f3eb621-6135-4eca-874f-4cf55cd35adb" />
+    <Project Path="libs/Tuna.SuperTemplate.HttpClient/Tuna.SuperTemplate.HttpClient.csproj" Id="dbe2cdc3-175b-4a64-b1d4-43ac7054ac02" />
+    <Project Path="libs/Tuna.SuperTemplate.HybridCache/Tuna.SuperTemplate.HybridCache.csproj" Id="cdfe1c00-cfe7-42d1-b98d-d2d84b9cfa95" />
+    <Project Path="libs/Tuna.SuperTemplate.Logging/Tuna.SuperTemplate.Logging.csproj" Id="3544f78b-27fd-4852-b182-73c7e5a2977b" />
+    <Project Path="libs/Tuna.SuperTemplate.MinimalApi/Tuna.SuperTemplate.MinimalApi.csproj" Id="f02f1e29-38ff-475d-9372-a21de7f0064e" />
+    <Project Path="libs/Tuna.SuperTemplate.RateLimit/Tuna.SuperTemplate.RateLimit.csproj" Id="c576c34f-72df-4581-bd91-c2c662e5dbd4" />
+    <Project Path="libs/Tuna.SuperTemplate.Resilience/Tuna.SuperTemplate.Resilience.csproj" Id="e6c8d753-bcf2-4334-a91b-566dea88b616" />
+    <Project Path="libs/Tuna.SuperTemplate.Security/Tuna.SuperTemplate.Security.csproj" Id="13842184-fb18-44e0-8aac-d6a2fc7f9cc0" />
+    <Project Path="libs/Tuna.SuperTemplate.Validation/Tuna.SuperTemplate.Validation.csproj" Id="1e02c729-bc5a-4ab4-9957-03a395c638f8" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Tuna.SuperTemplate.Api/Tuna.SuperTemplate.Api.csproj" Id="bc10eac5-9603-49ac-b831-295139512173" />
+    <Project Path="src/Tuna.SuperTemplate.Application/Tuna.SuperTemplate.Application.csproj" Id="03db256c-dcf5-40ac-9fe1-4cb08101beea" />
+    <Project Path="src/Tuna.SuperTemplate.Domain/Tuna.SuperTemplate.Domain.csproj" Id="cff2fbad-3c54-438c-ba6e-7703738da23f" />
+    <Project Path="src/Tuna.SuperTemplate.Infrastructure/Tuna.SuperTemplate.Infrastructure.csproj" Id="49f17a32-c040-4459-8c6e-a6af29a63c62" />
+  </Folder>
+</Solution>

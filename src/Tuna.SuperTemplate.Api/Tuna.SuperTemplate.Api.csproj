@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ed3d787d-d875-410b-906a-1de34d452840</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.23.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.ApiDocs\Tuna.SuperTemplate.ApiDocs.csproj" />
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.Cors\Tuna.SuperTemplate.Cors.csproj" />
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.Exception\Tuna.SuperTemplate.Exception.csproj" />
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.HealtCheck\Tuna.SuperTemplate.HealtCheck.csproj" />
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.HybridCache\Tuna.SuperTemplate.HybridCache.csproj" />
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.Logging\Tuna.SuperTemplate.Logging.csproj" />
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.MinimalApi\Tuna.SuperTemplate.MinimalApi.csproj" />
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.RateLimit\Tuna.SuperTemplate.RateLimit.csproj" />
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.Resilience\Tuna.SuperTemplate.Resilience.csproj" />
+    <ProjectReference Include="..\..\libs\Tuna.SuperTemplate.Security\Tuna.SuperTemplate.Security.csproj" />
+  </ItemGroup>
+
+</Project>
